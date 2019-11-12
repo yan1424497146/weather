@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>天气</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		
+		<div class="box">
+			<div class="nav">
+				<div class="top"></div>
+				<div class="weather_nav clearfix">
+					<div class="fl">
+						<span class="fl location_icon"></span>
+						<span class="fl location">广州</span>
+					</div>
+					<div class="fl input">
+						<input class="fl search_ipt" type="text" placeholder="输入城市" />
+						<span class="fl search_icon"></span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="content_box">
+				<div class="today clearfix">
+					<div class="left_today fl">
+						<p class="date"></p>
+						<p class="week"></p>
+						<!-- <p class="wind">晴</p> -->
+						<p class="wind win"></p>
+						<p class="wind win_speed"></p>
+						<p class="win_meter"></p>
+						
+					</div>
+					<div class="right_today fr">
+						<div class="wea wbg"></div>
+						<span class="tem"></span>
+					</div>
+					<!-- <div class="air air_tips">
+						<p>空气好，可以外出活动，除极少数对污染物特别敏感的人群以外，对公众没有危害！</p>
+					</div> -->
+				</div>
+				<div class="tyf_weather">
+					<div class="twenty-four">
+						24小时天气
+					</div>
+					<div class="weather_situation">
+						<ul class="clearfix" id="hw">
+							<!-- <li>
+								<div>20时</div>
+								<div class="tu" style="background-image: url('./images/yun.png');"></div>
+								<div>25℃</div>
+								<div>五持续风向</div>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+				<div class="future">
+					<div class="six_weather">未来6天天气</div>
+					<div class="future_weather">
+						<ul class="clearfix" id="fw">
+							<!-- <li>
+								<div>23日</div>
+								<div>
+									<i class="tupian" style="background-image: url('images/yun.png');"></i>
+								</div>
+								<div>摄氏度123</div>
+								<div>风向123</div>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script type="text/javascript" src="js/rem.js"></script>
+		<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>
